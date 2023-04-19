@@ -1,0 +1,103 @@
+/* Set default styles for body and headings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  /* Style the navbar */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  #navbar li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #navbar a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the welcome section */
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+  }
+  
+  /* Style the projects section */
+  #projects {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .project-tile {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .project-tile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-tile a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .project-tile a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the profile link */
+  #profile-link {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #profile-link:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
